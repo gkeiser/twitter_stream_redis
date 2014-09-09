@@ -1,0 +1,27 @@
+{
+  "name": "twitterstream",
+  "version": "0.0.0",
+  "description": "uses twitter npm module and node-redis to get and store tweets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gkeiser/twitter_stream_redis.git"
+  },
+  "keywords": [
+    "twitter",
+    "redis"
+  ],
+  "author": "grant keiser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gkeiser/twitter_stream_redis/issues"
+  },
+  "homepage": "https://github.com/gkeiser/twitter_stream_redis",
+  "dependencies": {
+    "node-redis": "^0.1.7",
+    "twitter": "^0.2.12"
+  }
+}

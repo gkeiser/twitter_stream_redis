@@ -8,10 +8,10 @@ client.on("error", function (err) {
     });
 
 var twit = new twitter({
-    consumer_key: 'I48ast1asHlL55BRtComHU6Ha',
-    consumer_secret: 'CnOLv3efARyoMQRLFo6DLYZUwaYZ3FnK1WyXvtUWUnREBQkzT7',
-    access_token_key: '9414932-tn0DA3tWVHZwkyPKS79D7Q15QddyDRDi5E2XSqFufs',
-    access_token_secret: 'cGwRfeAKKmGK7W7OYUCoVsv4uOwMJDXpUSRtBdlQW9fjb'
+    consumer_key: 'YOURKEY',
+    consumer_secret: 'YOURSECRET',
+    access_token_key: 'YOURTOKENKEY',
+    access_token_secret: 'YOURACCESSTOKENSECRET'
 });
 
 
